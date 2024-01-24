@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "bun --bun run nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@hebilicious/vue-query-nuxt": "latest",
+    "@nuxt/devtools": "latest",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "nuxt": "^3.9.3",
+    "valibot": "^0.26.0",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
+  }
+}
